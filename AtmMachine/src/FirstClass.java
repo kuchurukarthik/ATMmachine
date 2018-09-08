@@ -56,7 +56,7 @@ public class FirstClass {
 	            System.out.println("Enter Amount to be withdrawn");
 	            WithDrawl=s.nextInt();
 	             if(WithDrawl>InitBals[i]) {
-	            	 System.out.println("Insufficient Funds.Your account currently has "+InitBals[1]+"rs");
+	            	 System.out.println("Insufficient Funds.Your account currently has "+InitBals[i]+"Rs");
 	            	 System.exit(0);
 	              }
 	             else {
