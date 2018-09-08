@@ -6,9 +6,10 @@ import java.util.Scanner;
 public class FirstClass {
 	public static void main(String[] args) {int i,count=0,pin;String userid;
 		Scanner s=new Scanner(System.in);
-		String[] UserId = { "abc","def","ghi"};//array that has user id's of three users
-		int[] Pins= {1234,1234,1234};
-		double[] InitBals= {1000,2000,1400};
+//In ATM's we will swipe our card from which our userid is obtained.Here we need to enter userid manually.
+		String[] UserId = { "abc","def","ghi"};//array that has user id's of three users.You can add any number of users here.
+		int[] Pins= {1234,1234,1234};//pins for three userid's.
+		double[] InitBals= {1000,2000,1400};//Initial balances in accounts.
 		System.out.println("\t\t\tWELCOME USER!!!!!!!");
 		System.out.print("Enter your UserId:");
 	    userid=s.nextLine();				
